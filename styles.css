@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media screen and (min-width: 350px){
+    main{
+        position: absolute;
+        top: 0;
+        left: 22vw;
+        height: 100vh;
+        padding: 2rem;
+        font-size: 1.4rem;
+        color:hsl(0, 0%, 30%);
+        font-weight: 300;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
+    header{
+        font-size: 2rem;
+        color: black;
+    }
+
+    p{
+        padding-left: 1.5rem;
+    }
+
+    code{
+        display: block;
+        background-color: hsl(0, 0%, 95%);
+        padding: 1.4rem;
+        font-size: 1.2rem;
+        margin: 10px 50px;
+        border-radius: 8px;
+    }
+
+    .navbar{
+        position: relative;
+        left: 0;
+        width: 22vw;
+        height: 100vh;
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 3px solid lightslategray;
+        overflow-y: scroll;       
+        
+    }    
+    .navbar header{
+        height: 70px;
+        padding-top: 1rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-left: 15px;
+        overflow-y: hidden;
+    }
+
+    .navbar a{
+        display: block;
+        padding: 2rem 1rem 1rem 1rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: hsl(0, 0%, 30%);
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .navbar a, a:visited, a:hover, a:active {
+        color: inherit;
+      }
+
+    ul{
+        margin-left: 50px;
+    }
+}
